@@ -1,0 +1,56 @@
+{
+    "author": "cdanzmann@gmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
+    "keywords": [],
+    "name": "days-since-til",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "days since / til",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "SelectedDate",
+            "hide_battery",
+            "hide_date"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[0-9a-zA-Z,. :]",
+                    "file": "fonts/xkcd-Regular.otf",
+                    "name": "FONT_XKCD_10",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9a-z :]",
+                    "file": "fonts/xkcd-Regular.otf",
+                    "name": "FONT_XKCD_21",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9a-z :]",
+                    "file": "fonts/xkcd-Regular.otf",
+                    "name": "FONT_XKCD_42",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "5282956e-206a-4656-8874-0b750021b0ff",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.1.0"
+}
